@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img2.jpg",
+      "PackagePath": "staticwebassets\\Images\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img3.jpg",
+      "PackagePath": "staticwebassets\\Images\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img4.jpg",
+      "PackagePath": "staticwebassets\\Images\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img5.jpg",
+      "PackagePath": "staticwebassets\\Images\\img5.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Pustovoy.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Pustovoy.API.props",
+      "PackagePath": "build\\Pustovoy.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Pustovoy.API.props",
+      "PackagePath": "buildMultiTargeting\\Pustovoy.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Pustovoy.API.props",
+      "PackagePath": "buildTransitive\\Pustovoy.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

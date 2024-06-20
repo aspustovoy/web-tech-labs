@@ -31,9 +31,13 @@ builder.Services.AddSingleton<IEmailSender, NoOpEmailSender>();
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddScoped<ICategoryService, MemoryCategoryService>();
+//builder.Services.AddScoped<ICategoryService, MemoryCategoryService>();
+//builder.Services.AddScoped<IProductService, MemoryProductService>();
 
-builder.Services.AddScoped<IProductService, MemoryProductService>();
+builder.Services.AddHttpClient<IProductService, ApiProductService>(opt
+=> opt.BaseAddress = new Uri("https://localhost:7002/api/dishes/"));
+builder.Services.AddHttpClient<ICategoryService, ApiCategoryService>(opt
+=> opt.BaseAddress = new Uri("https://localhost:7002/api/categories/"));
 
 builder.Services.AddHttpContextAccessor();
 

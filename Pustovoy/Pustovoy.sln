@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pustovoy.UI", "Pustovoy.UI\Pustovoy.UI.csproj", "{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pustovoy.Domain", "Pustovoy.Domain\Pustovoy.Domain.csproj", "{14E075D4-FA9A-4D04-9C0B-2B07D553E9B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pustovoy.Domain", "Pustovoy.Domain\Pustovoy.Domain.csproj", "{14E075D4-FA9A-4D04-9C0B-2B07D553E9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pustovoy.API", "Pustovoy.API\Pustovoy.API.csproj", "{6F845F63-88C8-4481-9E62-00BE4A12D27A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{14E075D4-FA9A-4D04-9C0B-2B07D553E9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14E075D4-FA9A-4D04-9C0B-2B07D553E9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14E075D4-FA9A-4D04-9C0B-2B07D553E9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F845F63-88C8-4481-9E62-00BE4A12D27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F845F63-88C8-4481-9E62-00BE4A12D27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F845F63-88C8-4481-9E62-00BE4A12D27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F845F63-88C8-4481-9E62-00BE4A12D27A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
