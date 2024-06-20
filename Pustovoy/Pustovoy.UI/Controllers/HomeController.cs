@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Serilog;
 
 namespace Pustovoy.UI.Controllers
 {
@@ -20,7 +21,8 @@ namespace Pustovoy.UI.Controllers
 		}
 		public ActionResult Index()
         {
-			ViewData["text"] = "Лабараторная работа №7";
+			//Log.Information("Hello из метода Index контроллера Home!");
+			ViewData["text"] = "Лабараторная работа №8";
 			SelectList data = new SelectList(_listData, "Id", "Name");
 			return View(data);
 		}

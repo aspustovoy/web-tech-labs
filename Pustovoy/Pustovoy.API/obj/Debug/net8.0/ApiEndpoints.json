@@ -186,7 +186,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Pustovoy.Domain.Entities.Dish",
+        "Type": "Pustovoy.Domain.Models.ResponseData\u00601[[Pustovoy.Domain.Entities.Dish, Pustovoy.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

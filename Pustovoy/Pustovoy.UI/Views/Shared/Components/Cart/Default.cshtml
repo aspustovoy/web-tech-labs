@@ -1,4 +1,11 @@
-﻿<a asp-controller="cart" asp-action="index"
+﻿@* <a asp-controller="cart" asp-action="index"
    class="navbar-text ms-auto">
 	00,0 руб <i class="fa-solid fa-cart-shopping"></i> (0)
+</a> *@
+
+@using Pustovoy.Domain.Models
+@model Cart
+<a asp-action="Index" asp-controller="Cart" class="navbar-text ms-auto">
+	@Model.TotalCalories калорий <i class="fa-solid fa-cart-shopping"></i>
+	(@Model.Count)
 </a>

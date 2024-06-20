@@ -17,99 +17,103 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pustovoy.UI
 build_property.RootNamespace = Pustovoy.UI
-build_property.ProjectDir = C:\Users\Александр\Desktop\wt\web-tech-labs\lb7\Pustovoy\Pustovoy.UI\
+build_property.ProjectDir = C:\Users\Александр\Desktop\wt\web-tech-labs\lb8\Pustovoy\Pustovoy.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Александр\Desktop\wt\web-tech-labs\lb7\Pustovoy\Pustovoy.UI
+build_property.MSBuildProjectDirectory = C:\Users\Александр\Desktop\wt\web-tech-labs\lb8\Pustovoy\Pustovoy.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Admin/Pages/Create.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Admin/Pages/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Admin/Pages/Index.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Admin/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Admin/Pages/_ViewImports.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Admin/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Admin/Pages/_ViewStart.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Admin/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Home/Index.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Product/Index.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Shared/Components/Cart/Default.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Shared/Components/Cart/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Shared/Error.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Shared/_MenuPartial.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Shared/_MenuPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Shared/_ProductItemPartial.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Shared/_ProductItemPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0SXRlbVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Shared/_UserInfoPartial.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Shared/_UserInfoPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VySW5mb1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/_ViewImports.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/_ViewStart.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Александр/Desktop/wt/web-tech-labs/lb7/Pustovoy/Pustovoy.UI/Views/Shared/_Layout.cshtml]
+[C:/Users/Александр/Desktop/wt/web-tech-labs/lb8/Pustovoy/Pustovoy.UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ysmzzte31k

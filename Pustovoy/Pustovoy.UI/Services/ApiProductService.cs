@@ -23,8 +23,9 @@ namespace Pustovoy.UI.Services
 			var result = await httpClient.GetAsync(uri + query.Value);
 			if (result.IsSuccessStatusCode)
 			{
-				return await result.Content
-				.ReadFromJsonAsync<ResponseData<ProductListModel<Dish>>>();
+				var data = await result.Content
+					.ReadFromJsonAsync<ResponseData<ProductListModel<Dish>>>();
+				return data;
 			};
 			var response = new ResponseData<ProductListModel<Dish>>
 			{ Success = false, ErrorMessage = "Ошибка чтения API" };
@@ -85,7 +86,18 @@ namespace Pustovoy.UI.Services
 
         async Task<ResponseData<Dish>> IProductService.GetProductByIdAsync(int id)
         {
-			throw new NotImplementedException();
+			var uri = httpClient.BaseAddress;
+
+			var result = await httpClient.GetAsync($"{uri}{id}");
+			if (result.IsSuccessStatusCode)
+			{
+				var data = await result.Content
+					.ReadFromJsonAsync<ResponseData<Dish>>();
+				return data;
+			};
+			var response = new ResponseData<Dish>
+			{ Success = false, ErrorMessage = "Ошибка чтения API" };
+			return response;
 		}
 
 		Task IProductService.UpdateProductAsync(int id, Dish product, IFormFile? formFile)

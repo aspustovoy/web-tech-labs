@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Pustovoy.Domain.Entities;
+using Pustovoy.UI.Extensions;
 
 namespace Pustovoy.UI.Components
 {
@@ -6,7 +8,8 @@ namespace Pustovoy.UI.Components
 	{
 		public IViewComponentResult Invoke()
 		{
-			return View();
+			var cart = HttpContext.Session.Get<Cart>("cart");
+			return View(cart);
 		}
 	}
 }

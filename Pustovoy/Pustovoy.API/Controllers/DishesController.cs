@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using Pustovoy.API.Data;
 using Pustovoy.Domain.Entities;
 using Pustovoy.Domain.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Pustovoy.API.Controllers
 {
@@ -37,7 +39,7 @@ namespace Pustovoy.API.Controllers
 			// Фильтрация по категории загрузка данных категории
 			var data = _context.Dishes
 				.Include(d => d.Category)
-				.Where(d => String.IsNullOrEmpty(category)
+				.Where(d => System.String.IsNullOrEmpty(category)
 					|| d.Category.NormalizedName.Equals(category));
 			// Подсчет общего количества страниц
 			int totalPages = (int)Math.Ceiling(data.Count() / (double)pageSize);
@@ -68,16 +70,19 @@ namespace Pustovoy.API.Controllers
 
 		// GET: api/Dishes/5
 		[HttpGet("{id}")]
-		public async Task<ActionResult<Dish>> GetDish(int id)
+		public async Task<ActionResult<ResponseData<Dish>>> GetDish(int id)
 		{
+			var result = new ResponseData<Dish>();
 			var dish = await _context.Dishes.FindAsync(id);
 
+			result.Data = dish;
+			// Если список пустой
 			if (dish == null)
 			{
-				return NotFound();
+				result.Success = false;
+				result.ErrorMessage = "Ошибка API";
 			}
-
-			return dish;
+			return result;
 		}
 
 		// PUT: api/Dishes/5
