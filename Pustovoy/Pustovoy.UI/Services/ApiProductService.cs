@@ -1,5 +1,9 @@
-﻿using Pustovoy.Domain.Entities;
+﻿using Azure;
+using Pustovoy.Domain.Entities;
 using Pustovoy.Domain.Models;
+using System.IO;
+using System.Text.Json;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Pustovoy.UI.Services
 {
@@ -27,9 +31,51 @@ namespace Pustovoy.UI.Services
 			return response;
 		}
 
-		Task<ResponseData<Dish>> IProductService.CreateProductAsync(Dish product, IFormFile? formFile)
+		public async Task<ResponseData<Dish>> 
+		CreateProductAsync(Dish product, IFormFile?formFile)
 		{
-			throw new NotImplementedException();
+			var serializerOptions = new JsonSerializerOptions()
+			{
+				PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+			};
+			// Подготовить объект, возвращаемый методом
+			var responseData = new ResponseData<Dish>();
+			// Послать запрос к API для сохранения объекта
+			var response = await httpClient.PostAsJsonAsync(httpClient.BaseAddress, product);
+			if (!response.IsSuccessStatusCode)
+			{
+				responseData.Success = false;
+				responseData.ErrorMessage = $"Не удалось создать объект:{ response.StatusCode}";
+			return responseData;
+			}
+			// Если файл изображения передан клиентом
+			if (formFile != null)
+			{
+				// получить созданный объект из ответа Api-сервиса
+				var dish = await response.Content.ReadFromJsonAsync<Dish>();
+				// создать объект запроса
+				var request = new HttpRequestMessage
+				{
+					Method = HttpMethod.Post,
+					RequestUri = new Uri($"{httpClient.BaseAddress.AbsoluteUri}{dish.Id}")
+				};
+				// Создать контент типа multipart form-data
+				var content = new MultipartFormDataContent();
+				// создать потоковый контент из переданного файла
+				var streamContent = new StreamContent(formFile.OpenReadStream());
+				// добавить потоковый контент в общий контент по именем "image"
+				content.Add(streamContent, "image", formFile.FileName);
+				// поместить контент в запрос
+				request.Content = content;
+				// послать запрос к Api-сервису
+				response = await httpClient.SendAsync(request);
+				if (!response.IsSuccessStatusCode)
+				{
+					responseData.Success = false;
+					responseData.ErrorMessage = $"Не удалось сохранить изображение:{ response.StatusCode}";
+				}
+			}
+			return responseData;
 		}
 
 		Task IProductService.DeleteProductAsync(int id)
@@ -37,8 +83,8 @@ namespace Pustovoy.UI.Services
 			throw new NotImplementedException();
 		}
 
-		Task<ResponseData<Dish>> IProductService.GetProductByIdAsync(int id)
-		{
+        async Task<ResponseData<Dish>> IProductService.GetProductByIdAsync(int id)
+        {
 			throw new NotImplementedException();
 		}
 

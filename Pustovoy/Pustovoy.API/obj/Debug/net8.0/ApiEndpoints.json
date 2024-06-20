@@ -219,6 +219,27 @@
   },
   {
     "ContainingType": "Pustovoy.API.Controllers.DishesController",
+    "Method": "SaveImage",
+    "RelativePath": "api/Dishes/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pustovoy.API.Controllers.DishesController",
     "Method": "DeleteDish",
     "RelativePath": "api/Dishes/{id}",
     "HttpMethod": "DELETE",

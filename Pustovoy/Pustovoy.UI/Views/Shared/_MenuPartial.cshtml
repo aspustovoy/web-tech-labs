@@ -9,7 +9,7 @@
 			.ToLower()
 	?? String.Empty;
 
-	// System.Diagnostics.Debug.WriteLine(controller);
+	// System.Diagnostics.Debug.WriteLine(action);
 }
 
 <a class="navbar-brand"
@@ -18,11 +18,11 @@
 <div class="navbar-nav">
 	<a class="nav-item nav-link @(controller=="home" && action=="index" ?"active":"")"
 	   asp-controller="home"
-	   asp-action="index">Лб 6</a>
+	   asp-action="index">Лб 7</a>
 	<a class="nav-item nav-link @(controller=="product" && action=="index" ?"active":"")"
 	   asp-controller="product"
 	   asp-action="index">Каталог</a>
-	<a class="nav-item nav-link"
+	<a class="nav-item nav-link @(controller!="product" && controller!="home" ?"active":"")"
 	   asp-area="admin"
 	   asp-page="/index">Администрирование</a>
 </div>

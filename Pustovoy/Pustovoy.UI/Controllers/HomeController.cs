@@ -20,7 +20,7 @@ namespace Pustovoy.UI.Controllers
 		}
 		public ActionResult Index()
         {
-			ViewData["text"] = "Лабараторная работа №6";
+			ViewData["text"] = "Лабараторная работа №7";
 			SelectList data = new SelectList(_listData, "Id", "Name");
 			return View(data);
 		}

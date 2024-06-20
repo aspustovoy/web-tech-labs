@@ -8,8 +8,7 @@
       },
       {
         "Name": "Pustovoy.API\\Pustovoy.API.csproj",
-        "Action": "Start",
-        "DebugTarget": ""
+        "Action": "Start"
       }
     ]
   }

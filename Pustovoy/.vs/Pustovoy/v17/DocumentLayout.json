@@ -1,81 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|solutionrelative:pustovoy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|solutionrelative:pustovoy.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.api\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|solutionrelative:pustovoy.api\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|solutionrelative:pustovoy.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\views\\shared\\_productitempartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\views\\shared\\_productitempartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\services\\apicategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\services\\apicategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\services\\memoryproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\services\\memoryproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\services\\apiproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb7\\pustovoy\\pustovoy.ui\\services\\apiproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\services\\apiproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14E075D4-FA9A-4D04-9C0B-2B07D553E9B9}|Pustovoy.Domain\\Pustovoy.Domain.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.domain\\models\\productlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14E075D4-FA9A-4D04-9C0B-2B07D553E9B9}|Pustovoy.Domain\\Pustovoy.Domain.csproj|solutionrelative:pustovoy.domain\\models\\productlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb7\\pustovoy\\pustovoy.ui\\areas\\admin\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\areas\\admin\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MenuDb/True/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb7\\pustovoy\\pustovoy.ui\\areas\\admin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\areas\\admin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\data\\dbinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\data\\dbinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb7\\pustovoy\\pustovoy.ui\\areas\\admin\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\areas\\admin\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|solutionrelative:pustovoy.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb7\\pustovoy\\pustovoy.ui\\areas\\admin\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\areas\\admin\\pages\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb7\\pustovoy\\pustovoy.api\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|solutionrelative:pustovoy.api\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb7\\pustovoy\\pustovoy.ui\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|solutionrelative:pustovoy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MenuDb/True/SqlTable/dbo.Dishes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14E075D4-FA9A-4D04-9C0B-2B07D553E9B9}|Pustovoy.Domain\\Pustovoy.Domain.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.domain\\entities\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14E075D4-FA9A-4D04-9C0B-2B07D553E9B9}|Pustovoy.Domain\\Pustovoy.Domain.csproj|solutionrelative:pustovoy.domain\\entities\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb6\\pustovoy\\pustovoy.ui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb7\\pustovoy\\pustovoy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F845F63-88C8-4481-9E62-00BE4A12D27A}|Pustovoy.API\\Pustovoy.API.csproj|solutionrelative:pustovoy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,242 +45,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ProductItemPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Views\\Shared\\_ProductItemPartial.cshtml",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Views\\Shared\\_ProductItemPartial.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Views\\Shared\\_ProductItemPartial.cshtml",
-              "RelativeToolTip": "Pustovoy.UI\\Views\\Shared\\_ProductItemPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T07:26:16.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DishesController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Controllers\\DishesController.cs",
-              "RelativeDocumentMoniker": "Pustovoy.API\\Controllers\\DishesController.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Controllers\\DishesController.cs",
-              "RelativeToolTip": "Pustovoy.API\\Controllers\\DishesController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T19:19:10.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Program.cs",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Program.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Program.cs",
-              "RelativeToolTip": "Pustovoy.UI\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACUAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:22:18.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Pustovoy.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Pustovoy.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T19:44:44.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Pustovoy.API\\Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Pustovoy.API\\Data\\DbInitializer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T18:22:35.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Program.cs",
-              "RelativeDocumentMoniker": "Pustovoy.API\\Program.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Program.cs",
-              "RelativeToolTip": "Pustovoy.API\\Program.cs",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Areas\\Admin\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pustovoy.UI\\Areas\\Admin\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Areas\\Admin\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pustovoy.UI\\Areas\\Admin\\Pages\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T20:18:24.959Z",
+              "WhenOpened": "2024-06-17T17:30:39.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApiCategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Services\\ApiCategoryService.cs",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Services\\ApiCategoryService.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Services\\ApiCategoryService.cs",
-              "RelativeToolTip": "Pustovoy.UI\\Services\\ApiCategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "DishesController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.API\\Controllers\\DishesController.cs",
+              "RelativeDocumentMoniker": "Pustovoy.API\\Controllers\\DishesController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.API\\Controllers\\DishesController.cs",
+              "RelativeToolTip": "Pustovoy.API\\Controllers\\DishesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T07:13:21.611Z",
+              "WhenOpened": "2024-06-17T17:29:06.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ApiProductService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Services\\ApiProductService.cs",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Services\\ApiProductService.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Services\\ApiProductService.cs",
-              "RelativeToolTip": "Pustovoy.UI\\Services\\ApiProductService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.API\\Program.cs",
+              "RelativeDocumentMoniker": "Pustovoy.API\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.API\\Program.cs",
+              "RelativeToolTip": "Pustovoy.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T07:12:56.527Z",
+              "WhenOpened": "2024-06-17T13:33:57.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiProductService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Services\\ApiProductService.cs",
+              "RelativeDocumentMoniker": "Pustovoy.UI\\Services\\ApiProductService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Services\\ApiProductService.cs",
+              "RelativeToolTip": "Pustovoy.UI\\Services\\ApiProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:01:11.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductListModel.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.Domain\\Models\\ProductListModel.cs",
-              "RelativeDocumentMoniker": "Pustovoy.Domain\\Models\\ProductListModel.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.Domain\\Models\\ProductListModel.cs",
-              "RelativeToolTip": "Pustovoy.Domain\\Models\\ProductListModel.cs",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Areas\\Admin\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pustovoy.UI\\Areas\\Admin\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Areas\\Admin\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pustovoy.UI\\Areas\\Admin\\Pages\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T11:59:35.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Areas\\Admin\\Pages\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pustovoy.UI\\Areas\\Admin\\Pages\\Create.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Areas\\Admin\\Pages\\Create.cshtml",
+              "RelativeToolTip": "Pustovoy.UI\\Areas\\Admin\\Pages\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T05:42:22.708Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T11:56:04.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MemoryProductService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Services\\MemoryProductService.cs",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Services\\MemoryProductService.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Services\\MemoryProductService.cs",
-              "RelativeToolTip": "Pustovoy.UI\\Services\\MemoryProductService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwEwAAAAlAAAA",
+              "Title": "dbo.Dishes [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MenuDb/True/SqlTable/dbo.Dishes.sql",
+              "ToolTip": "dbo.Dishes [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-17T10:53:42.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Areas\\Admin\\Pages\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pustovoy.UI\\Areas\\Admin\\Pages\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Areas\\Admin\\Pages\\Create.cshtml.cs",
+              "RelativeToolTip": "Pustovoy.UI\\Areas\\Admin\\Pages\\Create.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T05:27:10.027Z",
+              "WhenOpened": "2024-06-17T11:49:28.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DbInit.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Data\\DbInit.cs",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Data\\DbInit.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Data\\DbInit.cs",
-              "RelativeToolTip": "Pustovoy.UI\\Data\\DbInit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:34:25.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "dbo.Categories [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MenuDb/True/SqlTable/dbo.Categories.sql",
-              "ToolTip": "dbo.Categories [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-06-14T19:01:48.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Data\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Data\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Data\\ApplicationUser.cs",
-              "RelativeToolTip": "Pustovoy.UI\\Data\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:34:06.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Pustovoy.UI\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:33:56.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Dish.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.Domain\\Entities\\Dish.cs",
-              "RelativeDocumentMoniker": "Pustovoy.Domain\\Entities\\Dish.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.Domain\\Entities\\Dish.cs",
-              "RelativeToolTip": "Pustovoy.Domain\\Entities\\Dish.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T16:57:39.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Pustovoy.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Pustovoy.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-14T16:20:14.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\appsettings.json",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\appsettings.json",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\appsettings.json",
-              "RelativeToolTip": "Pustovoy.UI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-14T16:19:23.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.UI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Pustovoy.UI\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-14T16:19:45.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Pustovoy.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb6\\Pustovoy\\Pustovoy.API\\appsettings.json",
-              "RelativeToolTip": "Pustovoy.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-14T16:19:14.566Z"
+              "DocumentIndex": 6,
+              "Title": "_MenuPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeDocumentMoniker": "Pustovoy.UI\\Views\\Shared\\_MenuPartial.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb7\\Pustovoy\\Pustovoy.UI\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeToolTip": "Pustovoy.UI\\Views\\Shared\\_MenuPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T13:47:42.808Z"
             }
           ]
         }

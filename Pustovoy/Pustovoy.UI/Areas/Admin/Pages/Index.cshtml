@@ -1,0 +1,69 @@
+﻿@page
+@model Pustovoy.UI.Areas.Admin.Pages.IndexModel
+@{
+	ViewData["Title"] = "Index";
+}
+<h1>Index</h1>
+<p>
+	<a asp-page="Create" class="btn btn-primary">
+		<i class="fa-solid fa-plus"></i> Create New
+	</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Dish[0].Name)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Dish[0].Description)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Dish[0].Calories)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Dish[0].Image)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Dish[0].Category)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model.Dish)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Name)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Description)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Calories)
+				</td>
+				<td>
+					<img style="width: 200px" src="@item.Image" />
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Category.Name)
+				</td>
+				<td>
+					<a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-success">
+						<i class="fa-solid fa-pen-to-square"></i> Edit
+					</a>
+					<a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-info ms-1 me-1">
+						<i class="fa-solid fa-info"></i> Details
+					</a>
+					<a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">
+						<i class="fa-regular fa-trash-can"></i> Delete
+					</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+<pager admin="true"
+	   current-page="@Model.CurrentPage"
+	   total-pages="@Model.TotalPages"></pager>
