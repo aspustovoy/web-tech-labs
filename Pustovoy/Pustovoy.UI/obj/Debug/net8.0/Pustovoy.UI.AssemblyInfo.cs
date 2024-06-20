@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pustovoy.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a396dda6a30e6496c9b5fbb065ac31639498ca8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b55350756776c9aea48ae8d3887e0f96bebd78fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pustovoy.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pustovoy.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
