@@ -3091,6 +3091,16 @@
             "rid": "win"
           }
         }
+      },
+      "Pustovoy.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Pustovoy.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pustovoy.Domain.dll": {}
+        }
       }
     }
   },
@@ -8587,6 +8597,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Pustovoy.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Pustovoy.Domain/Pustovoy.Domain.csproj",
+      "msbuildProject": "../Pustovoy.Domain/Pustovoy.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8597,7 +8612,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
+      "Pustovoy.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8606,11 +8622,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb3\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
+      "projectUniqueName": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
       "projectName": "Pustovoy.UI",
-      "projectPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb3\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
+      "projectPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb3\\Pustovoy\\Pustovoy.UI\\obj\\",
+      "outputPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8626,7 +8642,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj": {
+              "projectPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

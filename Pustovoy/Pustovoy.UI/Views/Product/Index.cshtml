@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Pustovoy.Domain.Entities.Dish>
+
+
+@{
+    ViewData["Title"] = "Index";
+    var request = ViewContext.HttpContext.Request;
+    var returnUrl = request.Path + request.QueryString.ToUriComponent();
+    var categories = ViewData["categories"] as IEnumerable<Category>;
+}
+<h2 class="m-3">Блюда дня</h2>
+<!-- выбор категории -->
+<div class="col-2 border-2">
+    <ul class="nav ">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false">
+            @ViewData["currentCategory"]
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item"
+                    asp-controller="product"
+                    asp-route-category=@null>Все</a>
+                </li>
+                @foreach (var item in categories)
+                {
+                    <li>
+                        <a class="dropdown-item"
+                        asp-controller="product"
+                        asp-route-category="@item.NormalizedName">
+                        @item.Name
+                        </a>
+                    </li>
+                }
+            </ul>
+        </li>
+    </ul>
+</div>
+    @if (Model != null)
+    {
+        <div class="card-group">
+            @foreach (var item in Model)
+            {
+                <div class="col-4 p-4">
+                    <div class="card border-dark m-2">
+                        <img class="card-img-top"
+                        src="@item.Image" alt="No image available" />
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">@item.Description</p>
+                            <h5><span class="badge bg-secondary">@item.Calories калорий</span></h5>
+                        </div><!-- card-body -->
+                        <div class="card-footer text-center">
+                            <a class="btn btn-outline-primary"
+                            asp-action="add" asp-controller="cart"
+                            asp-route-id="@item.Id"
+                            asp-route-returnurl="@returnUrl">
+                            Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div><!-- card-footer -->
+                    </div><!-- card -->
+                </div>
+                <!-- col -->
+            }
+        </div>
+    }
+<h2 class="text-warning">@ViewData["Error"]</h2>

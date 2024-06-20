@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
+          "Pustovoy.Domain": "1.0.0"
         },
         "runtime": {
           "Pustovoy.UI.dll": {}
@@ -2139,6 +2140,11 @@
             "fileVersion": "7.0.22.51805"
           }
         }
+      },
+      "Pustovoy.Domain/1.0.0": {
+        "runtime": {
+          "Pustovoy.Domain.dll": {}
+        }
       }
     }
   },
@@ -3372,6 +3378,11 @@
       "sha512": "sha512-bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
+    },
+    "Pustovoy.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

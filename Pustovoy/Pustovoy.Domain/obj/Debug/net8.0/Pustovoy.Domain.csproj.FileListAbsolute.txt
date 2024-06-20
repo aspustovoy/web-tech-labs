@@ -1,0 +1,12 @@
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\bin\Debug\net8.0\Pustovoy.Domain.deps.json
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\bin\Debug\net8.0\Pustovoy.Domain.dll
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\bin\Debug\net8.0\Pustovoy.Domain.pdb
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\obj\Debug\net8.0\Pustovoy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\obj\Debug\net8.0\Pustovoy.Domain.AssemblyInfoInputs.cache
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\obj\Debug\net8.0\Pustovoy.Domain.AssemblyInfo.cs
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\obj\Debug\net8.0\Pustovoy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\obj\Debug\net8.0\Pustovoy.Domain.sourcelink.json
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\obj\Debug\net8.0\Pustovoy.Domain.dll
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\obj\Debug\net8.0\refint\Pustovoy.Domain.dll
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\obj\Debug\net8.0\Pustovoy.Domain.pdb
+C:\Users\Александр\Desktop\wt\web-tech-labs\lb4\Pustovoy\Pustovoy.Domain\obj\Debug\net8.0\ref\Pustovoy.Domain.dll

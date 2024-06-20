@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Pustovoy.UI.Data;
+using Pustovoy.UI.Services;
 using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,9 +12,6 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-
-
-
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 {
@@ -31,19 +29,19 @@ builder.Services.AddAuthorization(opt =>
 });
 builder.Services.AddSingleton<IEmailSender, NoOpEmailSender>();
 
-
-
-
-//builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
-//{
-//    options.SignIn.RequireConfirmedAccount = true;
-//    options.Password.RequireDigit = false;
-//    options.Password.RequireNonAlphanumeric = false;
-//    options.Password.RequireLowercase = false;
-//    options.Password.RequireUppercase = false;
-//})
-//    .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<ICategoryService, MemoryCategoryService>();
+
+builder.Services.AddScoped<IProductService, MemoryProductService>();
+
+
+
+
+
+
+
+
 
 var app = builder.Build();
 

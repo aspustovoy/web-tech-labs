@@ -24,4 +24,8 @@
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pustovoy.Domain\Pustovoy.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

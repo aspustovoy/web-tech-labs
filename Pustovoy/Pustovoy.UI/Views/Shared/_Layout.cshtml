@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Pustovoy.UI.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
 		<div class="container">
 			<!-- Панель навигации -->
@@ -26,13 +26,13 @@
 
 		</div><!-- container - конец -->
     </header>
-    <div class="container">
+	<div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+	<footer class="border-top mt-auto text-muted">
 		<div class="container">
 			<div class="navbar navbar-dark navbar-expand-md bg-dark">
 				<div class="navbar-nav ms-auto">
