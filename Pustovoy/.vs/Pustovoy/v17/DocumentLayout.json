@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb4\\pustovoy\\pustovoy.ui\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb4\\pustovoy\\pustovoy.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb4\\pustovoy\\pustovoy.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb5\\pustovoy\\pustovoy.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\desktop\\wt\\web-tech-labs\\lb4\\pustovoy\\pustovoy.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E5DD6B3-559A-4D8D-91D3-AE4A0B4ECFA6}|Pustovoy.UI\\Pustovoy.UI.csproj|solutionrelative:pustovoy.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_MenuPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Views\\Shared\\_MenuPartial.cshtml",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Views\\Shared\\_MenuPartial.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Views\\Shared\\_MenuPartial.cshtml",
-              "RelativeToolTip": "Pustovoy.UI\\Views\\Shared\\_MenuPartial.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-14T09:57:58.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Pustovoy.UI\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBYAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:57:37.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pustovoy.UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Pustovoy.UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-14T09:56:56.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.UI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Pustovoy.UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.UI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Pustovoy.UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-14T09:56:37.778Z",
               "EditorCaption": ""

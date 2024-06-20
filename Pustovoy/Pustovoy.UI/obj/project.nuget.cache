@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KlLLugfM9n+GbkJFt9XO1/AHyG/vIclMxRolFKxl+DddV24b1dy5UnxiabCrxHotl2pvQlUO6uitMYRVU1mxJQ==",
+  "dgSpecHash": "jeQb+qtO7ml2QMeQd/41Kg6IcwK1urCje2bNeu748hWJ/XavEJNbToCCuUrA9oK72M4nJg3e1QxhazJq0Emxmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Александр\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Александр\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿using Pustovoy.Domain.Entities;
+﻿using Microsoft.AspNetCore.Mvc;
+using Pustovoy.Domain.Entities;
 using Pustovoy.Domain.Models;
 
 namespace Pustovoy.UI.Services
@@ -7,18 +8,21 @@ namespace Pustovoy.UI.Services
 	{
 		List<Dish> _dishes;
 		List<Category> _categories;
-		public MemoryProductService(ICategoryService categoryService)
+        IConfiguration _config;
+
+        public MemoryProductService([FromServices] IConfiguration config, ICategoryService categoryService)
 		{
 			_categories = categoryService.GetCategoryListAsync()
 			.Result
 			.Data;
 			SetupData();
-		}
+			_config = config;
+        }
 
-		/// <summary>
-		/// Инициализация списков
-		/// </summary>
-		private void SetupData()
+        /// <summary>
+        /// Инициализация списков
+        /// </summary>
+        private void SetupData()
 		{
 			_dishes = new List<Dish>
 			{
@@ -44,11 +48,9 @@ namespace Pustovoy.UI.Services
 				CategoryId=_categories.Find(c=>c.NormalizedName.Equals("beverages")).Id},
 			};
 		}
-		public Task<ResponseData<ProductListModel<Dish>>>
-		GetProductListAsync(
-		string? categoryNormalizedName,
-		int pageNo = 1)
-		{
+        public Task<ResponseData<ProductListModel<Dish>>>
+		GetProductListAsync(string? categoryNormalizedName, int pageNo)
+        {
             // Создать объект результата
             var result = new ResponseData<ProductListModel<Dish>>();
             // Id категории для фильрации
@@ -62,8 +64,21 @@ namespace Pustovoy.UI.Services
             // если этот Id имеется
             var data = _dishes.Where(d => categoryId == null || d.CategoryId.Equals(categoryId))?
             .ToList();
-            // поместить ранные в объект результата
-            result.Data = new ProductListModel<Dish>() { Items = data };
+
+            // получить размер страницы из конфигурации
+            int pageSize = _config.GetSection("ItemsPerPage").Get<int>();
+            // получить общее количество страниц
+            int totalPages = (int)Math.Ceiling(data.Count /
+            (double)pageSize);
+            // получить данные страницы
+            var listData = new ProductListModel<Dish>()
+            {
+                Items = data.Skip((pageNo - 1) * pageSize).Take(pageSize).ToList(),
+                CurrentPage = pageNo,
+                TotalPages = totalPages
+            };
+            // поместить данные в объект результата
+            result.Data = listData;
             // Если список пустой
             if (data.Count == 0)
             {

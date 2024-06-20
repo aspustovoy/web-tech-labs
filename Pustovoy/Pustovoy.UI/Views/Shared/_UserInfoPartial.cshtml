@@ -8,8 +8,8 @@
 				data-bs-toggle="dropdown"
 				aria-expanded="false">
 			@User.Claims.FirstOrDefault(c => c.Type.Equals("Name", StringComparison.OrdinalIgnoreCase))?.Value
-
-			<img src="@Url.Action("GetAvatar","Image")"
+			<img img-action="GetAvatar"
+				 img-controller="Image"
 				 width="30" alt="User"
 				 class="rounded bg-light" />
 
@@ -17,9 +17,10 @@
 		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 			<li>
 				<span class="dropdown-item-text">
-
-					<img src="@Url.Action("GetAvatar","Image")"
-						 width="50" alt="User" class="rounded" />
+					<img img-action="GetAvatar"
+						 img-controller="Image"
+						 width="30" alt="User"
+						 class="rounded bg-light" />
 
 					@User.Identity?.Name
 				</span>

@@ -8622,11 +8622,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
+      "projectUniqueName": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
       "projectName": "Pustovoy.UI",
-      "projectPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
+      "projectPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.UI\\Pustovoy.UI.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.UI\\obj\\",
+      "outputPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8643,8 +8643,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj": {
-              "projectPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj"
+            "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj": {
+              "projectPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj"
             }
           }
         }

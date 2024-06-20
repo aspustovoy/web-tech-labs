@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj": {}
+    "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj": {
+    "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj",
         "projectName": "Pustovoy.Domain",
-        "projectPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj",
+        "projectPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.Domain\\Pustovoy.Domain.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb4\\Pustovoy\\Pustovoy.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb5\\Pustovoy\\Pustovoy.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",

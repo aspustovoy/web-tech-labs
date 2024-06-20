@@ -11,7 +11,7 @@ namespace Pustovoy.UI.Services
 		/// <param name="categoryNormalizedName">нормализованное имя категории для фильтрации</param>
 		/// <param name="pageNo">номер страницы списка</param>
 		/// <returns></returns>
-		public Task<ResponseData<ProductListModel<Dish>>> GetProductListAsync(string?categoryNormalizedName, int pageNo = 1);
+		public Task<ResponseData<ProductListModel<Dish>>> GetProductListAsync(string?categoryNormalizedName, int pageNo);
 		/// <summary>
 		/// Поиск объекта по Id
 		/// </summary>

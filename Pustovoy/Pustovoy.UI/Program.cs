@@ -35,13 +35,7 @@ builder.Services.AddScoped<ICategoryService, MemoryCategoryService>();
 
 builder.Services.AddScoped<IProductService, MemoryProductService>();
 
-
-
-
-
-
-
-
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
