@@ -1,0 +1,55 @@
+﻿@using Pustovoy.Blazor.Services;
+@using Pustovoy.Domain.Entities;
+
+@implements IDisposable
+@rendermode InteractiveServer
+<div class="btn-group" role="group" aria-label="Pager">
+	<!-- Кнопка Previous -->
+	<button type="button" class="btn btn-outline-primary
+@(previousEnabled?"":"disabled")"
+			@onclick="@(e=>OnPageSelected(ProductService.CurrentPage-1))">
+		<span aria-hidden="true">&laquo;</span>
+	</button>
+	@for (int i = 1; i <= ProductService.TotalPages; i++)
+	{
+		var temp = i;
+		<button type="button" class="btn btn-outline-primary
+@(IsActive(temp)?"active":"")"
+				@onclick="@(e=>OnPageSelected(temp))">
+			@temp
+		</button>
+	}
+	<!-- Кнопка Next -->
+	<button type="button" class="btn btn-outline-primary
+@(nextEnabled?"":"disabled")"
+			@onclick="@(e=>OnPageSelected(ProductService.CurrentPage+1))">
+		<span aria-hidden="true">&raquo;</span>
+	</button>
+</div>
+@code {
+	[CascadingParameter]
+	public IProductService<Dish> ProductService { get; set; }
+	protected override void OnInitialized()
+	{
+		ProductService.ListChanged += StateHasChanged;
+	}
+	// Кнопка Previous доступна?
+	bool previousEnabled { get => ProductService.CurrentPage != 1; }
+	// Кнопка Next доступна
+	bool nextEnabled
+	{
+		get => ProductService.CurrentPage !=
+	ProductService.TotalPages;
+	}
+	// Это текущая страница?
+	bool IsActive(int pageNo) => pageNo == ProductService.CurrentPage;
+	// Обработчик клика кнопки
+	async void OnPageSelected(int pageNo)
+	{
+		await ProductService.GetProducts(pageNo);
+	}
+	public void Dispose()
+	{
+		ProductService.ListChanged -= StateHasChanged;
+	}
+}

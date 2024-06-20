@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6aqIx1ukguQ/ENKlj/CG8nHd1dAHDsjmdkUn+467VQo=",
+  "Hash": "hJ6/a6SBp+GXZ2gxxTsE72ZYfOJ1PVBeyM/Fm9QZCdA=",
   "Source": "Pustovoy.API",
   "BasePath": "_content/Pustovoy.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Pustovoy.API\\wwwroot",
       "Source": "Pustovoy.API",
-      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\",
       "BasePath": "_content/Pustovoy.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img1.jpg",
+      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img1.jpg",
       "SourceId": "Pustovoy.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\",
       "BasePath": "_content/Pustovoy.API",
       "RelativePath": "Images/img1.jpg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\img1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img2.jpg",
+      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img2.jpg",
       "SourceId": "Pustovoy.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\",
       "BasePath": "_content/Pustovoy.API",
       "RelativePath": "Images/img2.jpg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\img2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img3.jpg",
+      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img3.jpg",
       "SourceId": "Pustovoy.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\",
       "BasePath": "_content/Pustovoy.API",
       "RelativePath": "Images/img3.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\img3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img4.jpg",
+      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img4.jpg",
       "SourceId": "Pustovoy.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\",
       "BasePath": "_content/Pustovoy.API",
       "RelativePath": "Images/img4.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\img4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img5.jpg",
+      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\img5.jpg",
       "SourceId": "Pustovoy.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\",
       "BasePath": "_content/Pustovoy.API",
       "RelativePath": "Images/img5.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\img5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\xkqz1y4w.jpg",
+      "Identity": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\Images\\xkqz1y4w.jpg",
       "SourceId": "Pustovoy.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb8\\Pustovoy\\Pustovoy.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Александр\\Desktop\\wt\\web-tech-labs\\lb9\\Pustovoy\\Pustovoy.API\\wwwroot\\",
       "BasePath": "_content/Pustovoy.API",
       "RelativePath": "Images/xkqz1y4w.jpg",
       "AssetKind": "All",

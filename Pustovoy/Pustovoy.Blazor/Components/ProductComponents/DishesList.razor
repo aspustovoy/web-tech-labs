@@ -1,0 +1,46 @@
+﻿@using Pustovoy.Blazor.Services;
+@using Pustovoy.Domain.Entities;
+
+@implements IDisposable
+@rendermode InteractiveServer
+<h3>Блюда дня</h3>
+@if(ProductService.Products!=null
+		&& ProductService.Products.Count() != 0)
+{
+	<table class="table table-striped">
+		<thead>
+		<th>Название</th>
+		<th></th>
+			@foreach (var item in ProductService.Products)
+			{
+			<tr>
+				<td>@item.Name</td>
+				<td>
+					<button class="btn btn-outline-dark"
+							@onclick="@(()=>OnDishSelected(item.Id))">
+						Подробно
+					</button>
+				</td>
+			</tr>
+			}
+		</thead>
+	</table>
+}
+@code {
+	[CascadingParameter]
+	public IProductService<Dish> ProductService { get; set; }
+	[Parameter]
+	public EventCallback<int> DishSelected { get; set; }
+	protected override async Task OnInitializedAsync()
+	{
+		ProductService.ListChanged += StateHasChanged;
+	}
+	public async void OnDishSelected(int id)
+	{
+		await DishSelected.InvokeAsync(id);
+	}
+	public void Dispose()
+	{
+		ProductService.ListChanged -= StateHasChanged;
+	}
+}

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pustovoy.Domain", "Pustovoy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pustovoy.API", "Pustovoy.API\Pustovoy.API.csproj", "{6F845F63-88C8-4481-9E62-00BE4A12D27A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pustovoy.Tests", "Pustovoy.Tests\Pustovoy.Tests.csproj", "{D7EE235B-F114-42FA-8BBB-0CA0A5850B7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pustovoy.Tests", "Pustovoy.Tests\Pustovoy.Tests.csproj", "{D7EE235B-F114-42FA-8BBB-0CA0A5850B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pustovoy.Blazor", "Pustovoy.Blazor\Pustovoy.Blazor.csproj", "{7F7135E6-908A-4618-BE17-C7CC4BF652B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D7EE235B-F114-42FA-8BBB-0CA0A5850B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7EE235B-F114-42FA-8BBB-0CA0A5850B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7EE235B-F114-42FA-8BBB-0CA0A5850B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7135E6-908A-4618-BE17-C7CC4BF652B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7135E6-908A-4618-BE17-C7CC4BF652B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7135E6-908A-4618-BE17-C7CC4BF652B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7135E6-908A-4618-BE17-C7CC4BF652B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

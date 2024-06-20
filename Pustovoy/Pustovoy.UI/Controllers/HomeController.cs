@@ -22,7 +22,7 @@ namespace Pustovoy.UI.Controllers
 		public ActionResult Index()
         {
 			//Log.Information("Hello из метода Index контроллера Home!");
-			ViewData["text"] = "Лабараторная работа №8";
+			ViewData["text"] = "Лабараторная работа №9";
 			SelectList data = new SelectList(_listData, "Id", "Name");
 			return View(data);
 		}
